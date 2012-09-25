@@ -11,7 +11,7 @@
 
 <div id = "quick_nav">
 	<a href = "index.php">Index</a> | 
-	<a href = "index.php">Source sur Github</a>
+	<a href = "https://github.com/Scroph/FsacNotifications">Source sur Github</a>
 </div>
 
 <?= $body ?>
