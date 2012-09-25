@@ -1,0 +1,112 @@
+body
+{
+    width: 750px;
+    margin: auto;
+    padding: 30px;
+}
+
+#header
+{
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#menu
+{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+#notice
+{
+    border: 1px solid green;
+    background-color: #BBEFBB;
+    width: 500px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-align: center;
+    padding: 20px;
+}
+
+#quick_nav
+{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+#footer
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+#email_form
+{
+    width: 330px;
+    margin: auto;
+}
+
+/* For drawing sexy tables */
+.datatable
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.datatable th
+{
+    background-color: black;
+    font-size: 12px;
+    color: lightblue;
+    height: 40px;
+    padding: 10px;
+    cursor: default;
+}
+
+.datatable td
+{
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.datatable tr:hover
+{
+    background-color: lightblue;
+}
+
+/* Beautifying some tags */
+img
+{
+    border: none;
+    margin: 3px;
+}
+a
+{
+    text-decoration: none;
+}
+h3
+{
+    width: 750px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    color: darkblue;
+    background-color: lightblue;
+    font-size: 13px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
