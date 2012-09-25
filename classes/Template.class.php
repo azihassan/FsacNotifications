@@ -12,7 +12,7 @@ class Template
 	{
 		if(!is_readable($template = $view_path.'template.php'))
 		{
-			throw new Exceptions($template.' does not exist or is not readable.');
+			throw new Exception($template.' does not exist or is not readable.');
 		}
 		$this->_template = $template;
 		$this->_view_path = $view_path;
@@ -29,7 +29,7 @@ class Template
 
 		if(!is_readable($view))
 		{
-			throw new Exceptions($view.' does not exist or is not readable.');
+			throw new Exception($view.' does not exist or is not readable.');
 		}
 
 		ob_start();
