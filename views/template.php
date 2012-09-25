@@ -18,7 +18,7 @@
 
 <div id = "footer">
 	<hr width = "80%" />
-	2012 - Azi Hassan
+	Fsac notifications - 2012 
 </div>
 
 </body>
