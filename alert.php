@@ -39,7 +39,7 @@ foreach($model->retrieve_all() as $f)
 		
 		foreach($subscribers as $s)
 		{
-			$mail->AddAddress($s['email']);
+			$mail->AddBCC($s['email']);
 		}
 		
 		$message = sprintf(file_get_contents($cfg['paths']['email_tpl']), $f['filiere'], $f['url']);
